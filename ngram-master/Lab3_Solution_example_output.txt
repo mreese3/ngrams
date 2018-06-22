@@ -1,0 +1,50 @@
+Unigram Language Model: 
+</s>               4    0.1818
+<s>                4    0.1818
+am                 3    0.1364
+and                1    0.0455
+eggs               1    0.0455
+i                  4    0.1818
+like               1    0.0455
+sam                4    0.1818
+Log score:             -4.4288
+
+Laplace Unigram Language Model: 
+</s>               5    0.1667
+<s>                5    0.1667
+am                 4    0.1333
+and                2    0.0667
+eggs               2    0.0667
+i                  5    0.1667
+like               2    0.0667
+sam                5    0.1667
+Log score:             -4.3856
+
+Bigram Language Model: 
+[<s>, i]           3    0.7500
+[<s>, sam]         1    0.2500
+[am, </s>]         1    0.3333
+[am, sam]          2    0.6667
+[and, sam]         1    1.0000
+[eggs, and]        1    1.0000
+[i, am]            3    0.7500
+[i, like]          1    0.2500
+[like, eggs]       1    1.0000
+[sam, </s>]        3    0.7500
+[sam, i]           1    0.2500
+Log score:           -Infinity
+
+Laplace Bigram Language Model: 
+[<s>, i]           4    0.3333
+[<s>, sam]         2    0.1667
+[am, </s>]         2    0.1818
+[am, sam]          3    0.2727
+[and, sam]         2    0.2222
+[eggs, and]        2    0.2222
+[i, am]            4    0.3333
+[i, like]          2    0.1667
+[like, eggs]       2    0.2222
+[sam, </s>]        4    0.3333
+[sam, i]           2    0.1667
+Log score:             -2.9499
+
